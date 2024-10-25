@@ -34,5 +34,16 @@
             </form>
         </div>
     </div>
+    <script>
+    window.onload = function() {
+    setTimeout(function() {
+        var contenedor = document.getElementById('contenedor_carga');
+        var loginContainer = document.getElementById('login_container');
+        contenedor.style.visibility = 'hidden';
+        contenedor.style.opacity = '0';
+        loginContainer.style.display = 'flex';
+    }, 1500);
+    };
+</script>
 </body>
 </html>
