@@ -8,25 +8,42 @@
     <title>Iniciar Sesión</title>
 </head>
 <body>
-    <div class="titulo">
-        <h2>CAMAL MUNICIPAL "SAN LUIS"</h2>
+    
+<img class="image_login" src="../../../assets/images/login_2.png" alt="Fondo de Inicio de Sesión">
+<span class="loader" id="contenedor_carga"><span class="loader-inner"></span></span>
+
+<div class="container-form" id="login_container" style="display: none;">
+<div class="container-form">
+    <div class="information">
+        <img src="../../../assets/images/logo_login.png" alt="Logo MDE_Trujillo" class="info_image">
+        <img src="../../../assets/images/nameMuni.png" alt="Name MDE_Trujillo" class="info_image1">
+        <div class="info-childs">
+            <h2>CAMAL MUNICIPAL</h2>
+            <h3>"SAN LUIS"</H3>
+        </div>
+        <img src="../../../assets/images/ganadoLogo.png" alt="Logo Ganado Vector" class="info_image2">
     </div>
-    <!-- <img class="escudo" src="../../../assets/images/escudo_mde.png" alt="escudo"> -->
-    <div class="login-container">
-        <div class="informacion-form">
+
+    <div class="form_information">
+
+        <div class="firstLine">
+            <div class="form_square">
+            </div>
+        </div>
+
+        <div class="form-information_childs">
             <h2>¡Bienvenido!</h2>
             <p>Inicia sesión para continuar</p>
             <?php include "../../../app/controllers/controllerLogin.php" ?>
             <form class="form" action="" method="POST">               
                 <label>
                     <i class='bx bx-user'></i>
-                    <input type="text" placeholder="Usuario" name="usuario" autocomplete="off">                       
+                    <input type="text" placeholder="Usuario" name="usuario" autocomplete = "off">                       
                 </label>
-                <br>
                 <label>
-                    <i class='bx bx-lock-alt'></i>
-                    <input type="password" placeholder="Contraseña" name="password" id="password" autocomplete="off">
-                    <i class='bx bx-hide' id="toggle"></i>
+                    <i class='bx bx-lock-alt' ></i>
+                    <input type="password" placeholder="Contraseña" name="password" id="password" autocomplete = "off">
+                    
                 </label>
                 <div class="ingresar">
                     <input name="ingresar" type="submit" value="Ingresar">
@@ -34,6 +51,8 @@
             </form>
         </div>
     </div>
+</div>
+
     <script>
     window.onload = function() {
     setTimeout(function() {

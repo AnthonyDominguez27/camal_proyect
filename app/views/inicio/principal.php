@@ -1,5 +1,4 @@
 <div class="page-content">
-
     <div class="container-fluid">
         <!-- Contenedor modal -->
         <div id="contenedor_modal">
@@ -9,16 +8,16 @@
         <!-- start page title -->
         
         <div class="row">
-            <div class="col">
-                    <br><br><br><br><br><br><br><br><br>
-                    <h1 align="center" style="color:#007BFF; font-size: 65px">¡Bienvenido!</h1>
-                    <h1 align="center" style="color:skyblue; font-size: 60px">Administración del</h1>
-                    <h1 align="center" style="color:skyblue; font-size: 60px">Camal Municipal</h1>
-                    <h1 align="center" style="color:skyblue; font-size: 60px">"San Luis"</h1>
+        <div class="col">
+                    <br><br>
+                    <h1 align="left" style="color:rgb(13, 88, 117); font-size: 55px">¡Bienvenido!</h1>
+                    <h1 align="center" style="color:#007BFF; font-size: 50px">Administración del</h1>
+                    <h1 align="left" style="color:#007BFF; font-size: 50px">Camal Municipal</h1>
+                    <h1 align="center" style="color:#007BFF; font-size: 50px">"San Luis"</h1>
             </div>
             <div class="col">
                     <span class="logo-sm">
-                        <img src="../../../assets/images/logo_login.png" alt="" height="500">
+                        <!-- <img src="../../../assets/images/ft_camal_1.png" alt="" height="300" align="right" > -->
                     </span>
                     
             </div>
