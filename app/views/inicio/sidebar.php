@@ -47,7 +47,7 @@
         </nav>
     </div>
 
-    <!-- Contenido principal -->
+    <!-- Contenido principal -->s
     <div class="main-content">
     <div id="contenedor_principal">
         <?php include "../../../app/views/inicio/principal.php" ?>
