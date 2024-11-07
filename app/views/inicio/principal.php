@@ -8,20 +8,26 @@
         <!-- start page title -->
         
         <div class="row">
+            
         <div class="col">
-                    <br><br>
-                    <h1 align="left" style="color:rgb(13, 88, 117); font-size: 55px">¡Bienvenido!</h1>
-                    <h1 align="center" style="color:#007BFF; font-size: 50px">Administración del</h1>
-                    <h1 align="left" style="color:#007BFF; font-size: 50px">Camal Municipal</h1>
-                    <h1 align="center" style="color:#007BFF; font-size: 50px">"San Luis"</h1>
+                    <h1 align="center" style="color:rgb(13, 88, 117); font-family:tahoma; background: linear-gradient(to right, #1047ef, #5f10ef); background-clip:text; color:transparent; font-size: 45px">Sistema de</h1>
+                    <h1 align="center" style="color:#007BFF; font-size: 35px">Administración del Camal </h1>
+                    <h1 align="center" style="color:#007BFF; font-size: 35px">Municipal "San Luis"</h1>
             </div>
             <div class="col">
                     <span class="logo-sm">
-                        <!-- <img src="../../../assets/images/ft_camal_1.png" alt="" height="300" align="right" > -->
+                    <img src="../../../assets/images/ft_camal_1.png" alt="" height="300" align="right">
                     </span>
                     
             </div>
         </div>
+        <style>
+            h1{
+                background: linear-gradient(to right, red, blue);
+                background-clip: text;
+                color: transparent;
+            }
+        </style>
         <!-- end page title -->
 
         <div class="row align-items-center">

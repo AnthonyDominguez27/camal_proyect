@@ -12,22 +12,25 @@
     </head>
     <body>
     <!-- Barra lateral de navegación -->
+        <!-- <div class="sidebarHori">
+
+        </div> -->
     <div class="sidebar">
         <div class="logo">
-            <img src="../../../assets/images/escudo_mde.png" alt="Logo Municipalidad" height="70%" class="mde_escudo">
-            <img src='../../../assets/images/MDE_LOGO.svg' alt="" height="50px" style="width: 90%; padding: 10px;"> <span class="logo-txt"></span>
+            <img src="../../../assets/images/logo_mde_1.png" alt="Logo Municipalidad">
             <hr>
         </div>
         <nav class="navbar">
             <ul>
                 <li><a href="#">Principal</a></li>
-                <li><a href="#">Registros</a>
+                <li><a href="#" id="registros">Registros ></a>
                 <ul class="dropdown">
-                <li><a href="#">Nuevo Servicio</a></li>
                 <li><a href="#">Comerciante</a></li>
+                <li><a href="#">Registrar Ingreso</a></li>
+                <li><a href="#">Servicio</a></li>
             </ul>
         </li>
-                <li><a href="#">Consultas</a>
+                <li><a href="#" id="consultas">Consultas ></a>
                 <ul class="dropdown">
                     <li><a href="#">Servicios por Comerciante</a></li>
                     <li><a href="#">Servicios por Cámara Frigorifica</a></li>
@@ -36,8 +39,8 @@
                 </ul>
             </li>
 
-                <li><a href="#">Tarifas</a></li>
-                <li><a href="#">Reportes</a>
+                <li><a href="#">Tarifas ></a></li>
+                <li><a href="#" id="reportes">Reportes ></a>
             <ul class="dropdown">
                 <li><a href="#">Generar Reporte</a></li>
 
@@ -46,14 +49,17 @@
             </ul>
         </nav>
     </div>
+    
 
-    <!-- Contenido principal -->s
+    <!-- Contenido principal -->
     <div class="main-content">
-    <div id="contenedor_principal">
-        <?php include "../../../app/views/inicio/principal.php" ?>
+        <div id="contenedor_principal">
+            
+            <?php include "../../../app/views/inicio/principal.php" ?>
         <!-- Aquí se mostrará el contenido de las páginas cargadas sin recargar la página completa. -->
+        </div>
     </div>
-    </div>
+    <script src="../../../javascripts/sidebar/scriptSidebar.js"></script>
     
 
 

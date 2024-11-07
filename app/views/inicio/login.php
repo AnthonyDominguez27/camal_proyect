@@ -9,6 +9,7 @@
 </head>
 <body>
     
+    
 <img class="image_login" src="../../../assets/images/login_2.png" alt="Fondo de Inicio de Sesión">
 <span class="loader" id="contenedor_carga"><span class="loader-inner"></span></span>
 

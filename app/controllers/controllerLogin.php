@@ -21,7 +21,7 @@ if (!empty($_POST["ingresar"])) {
             if ($password == $datos['password']) {                
                 $_SESSION["id"] = $datos['idUsuario'];
                 $_SESSION['usuario'] = $datos['nombre'];
-                header("location:../../views/inicio/principal.php");
+                header("location:../../views/inicio/sidebar.php");
                 sqlsrv_free_stmt($stmt);
                 exit;
             } else {
